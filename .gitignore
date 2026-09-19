@@ -1,0 +1,25 @@
+# AI 工具本地配置
+.claude/settings.local.json
+.cursor/
+.aider*
+.continue/
+.cody/
+
+# 密钥和凭证
+*.pem
+*.key
+credentials.json
+.npmrc
+.aws/
+.ssh/
+
+# 数据库文件（本地个人数据，不要提交）
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.pyc
+.venv/
